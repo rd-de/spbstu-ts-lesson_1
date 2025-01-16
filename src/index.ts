@@ -19,7 +19,7 @@ function getUsersJobPositions(users: User[]): UserPosition[] {
                 gender: user.gender,
             };
         }
-        throw new Error(`No additional info found for user with id ${user.userid}`);
+        throw new Error(`Не найдено никакой дополнительной информации для пользователя с id  ${user.userid}`);
     });
 }
 
